@@ -13,12 +13,19 @@ target: 50 minutes
 - [ ] Prepare photo of the Dwarf front-faced with HMI screen on
 - [ ] Prepare photo of the Dwarf back-side for easy IO description
 - [ ] Prepare photo of the Dwarf internals (or have unit open?)
+- [ ] Prepare photo of the Dwarf with all self-test mode cables?
 - [ ] Prepare basic graph/node sketch of Dwarf/Linux (dns server) -> USB (network device) -> PC
 - [ ] Prepare Dwarf pedalboard useful for initial demo purposes
 - [ ] Prepare photo of Duo marsboard adapter
 - [ ] Prepare xrun/latency-spike demo with memset tool (stop RT/big services, run rt-tests, run memset)
 - [ ] Check usability of mod-screenshot tool
+- [ ] macbook setup of Dwarf kernel build, for live-demo push
 - [ ] Calculate time estimates
+
+TODO fit in there somewhere:
+- when to switch from devboard to hw proto (after "booting up"?)
+- "The versioning problem" as its single topic? (TBD)
+- explain: restore, kernel, rootfs, plugins-dep
 
 ## Intro
 
@@ -57,6 +64,8 @@ A few critical things to solve first
 
 Let's go custom builds, we chose buildroot as helper at the time (2016)
 
+Add note on how MBS is closed, business decision, but MPB is a copy allows plugins and kernel builds.
+
 ## Booting up: Initial steps
 
 1. Manual build of bootloader, partitioning and other hw specific (lets get it booting something)
@@ -84,11 +93,11 @@ Hurray, a deployable device!
 
 (note to audience: some of the previous and future points would be done in parallel)
 
-## Audio setup
+## Audio setup (aka what this device is supposed to do)
 
 - JACK server on top of ALSA (cs4565 I2S device)
 - setup mod-host and mod-ui
-- introduce ttymidi, midi-merger, audio-bridge
+- introduce ttymidi, midi-merger, peakmeter, audio-bridge
 
 ## Human-Machine Interface
 
@@ -99,7 +108,7 @@ Hurray, a deployable device!
 
 ## Self-test and QC
 
-1. how to test all hw features work? introducing self-test mode
+1. how to test that all hw features work? introducing self-test mode
 2. audio loopback, midi loopback, usb host to device
 3. test of hw buttons, knobs, leds, screen
 4. all units must pass self-test at least once
@@ -108,7 +117,9 @@ Hurray, a deployable device!
 
 - JACK with internal clients
 - JACK with private futexes
+
 ... ? TODO more stuff here
+
 - IRQ tuning
 - nightmares of hw quirks (quick demo of memset issue, mention USB driver)
 - throwing cpu at the noise problem
