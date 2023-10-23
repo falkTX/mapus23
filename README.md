@@ -6,19 +6,19 @@ target: 50 minutes
 
 ## Pre-presentation
 
-[ ] Ensure macbook linux system can use external screen via HDMI
-[ ] Ensure Dwarf network connection
-[ ] Check if Dwarf usb audio is usable
-[ ] Check high-dpi, with libreoffice presentation stuff and dpf+imgui (in case that gets done in time?)
-[ ] Prepare photo of the Dwarf front-faced with HMI screen on
-[ ] Prepare photo of the Dwarf back-side for easy IO description
-[ ] Prepare photo of the Dwarf internals (or have unit open?)
-[ ] Prepare basic graph/node sketch of Dwarf/Linux (dns server) -> USB (network device) -> PC
-[ ] Prepare Dwarf pedalboard useful for initial demo purposes
-[ ] Prepare photo of Duo marsboard adapter
-[ ] Prepare xrun/latency-spike demo with memset tool (stop RT/big services, run rt-tests, run memset)
-[ ] Check usability of mod-screenshot tool
-[ ] Calculate time estimates
+- [ ] Ensure macbook linux system can use external screen via HDMI
+- [ ] Ensure Dwarf network connection
+- [ ] Check if Dwarf usb audio is usable
+- [ ] Check high-dpi, with libreoffice presentation stuff and dpf+imgui (in case that gets done in time?)
+- [ ] Prepare photo of the Dwarf front-faced with HMI screen on
+- [ ] Prepare photo of the Dwarf back-side for easy IO description
+- [ ] Prepare photo of the Dwarf internals (or have unit open?)
+- [ ] Prepare basic graph/node sketch of Dwarf/Linux (dns server) -> USB (network device) -> PC
+- [ ] Prepare Dwarf pedalboard useful for initial demo purposes
+- [ ] Prepare photo of Duo marsboard adapter
+- [ ] Prepare xrun/latency-spike demo with memset tool (stop RT/big services, run rt-tests, run memset)
+- [ ] Check usability of mod-screenshot tool
+- [ ] Calculate time estimates
 
 ## Intro
 
