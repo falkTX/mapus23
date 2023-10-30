@@ -6,8 +6,8 @@ target: 50 minutes
 
 ## Pre-presentation
 
-- [ ] Ensure macbook linux system can use external screen via HDMI
-- [ ] Ensure Dwarf network connection
+- [x] Ensure macbook linux system can use external screen via HDMI
+- [x] Ensure Dwarf network connection
 - [ ] Check if Dwarf usb audio is usable
 - [ ] Check high-dpi, with libreoffice presentation stuff and dpf+imgui (in case that gets done in time?)
 - [ ] Prepare photo of the Dwarf front-faced with HMI screen on
@@ -18,7 +18,7 @@ target: 50 minutes
 - [ ] Prepare Dwarf pedalboard useful for initial demo purposes
 - [ ] Prepare photo of Duo marsboard adapter
 - [ ] Prepare xrun/latency-spike demo with memset tool (stop RT/big services, run rt-tests, run memset)
-- [ ] Check usability of mod-screenshot tool
+- [ ] Check usability of hmi-screenshot tool
 - [ ] macbook setup of Dwarf kernel build, for live-demo push
 - [ ] Calculate time estimates
 
