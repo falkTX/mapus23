@@ -42,8 +42,9 @@ TODO fit in there somewhere:
 
 0. "Preface": why ARM vs others
 1. Define requirements first
-2. SoM socketable model, non-standard socket but still doable to iterate, potentially soldered model (not during initial development)
-3. many components unused, but expected with these SoMs
+2. Not existing full boards?
+3. SoM socketable model, non-standard socket but still doable to iterate, potentially soldered model (not during initial development)
+4. many components unused, but expected with these SoMs
 ...
 
 ## Initial experiments and testing
