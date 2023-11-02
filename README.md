@@ -25,12 +25,25 @@ Target: 50 minutes
 - [ ] Calculate time estimates
 
 TODO fit in there somewhere:
-- when to switch from devboard to hw proto (after "booting up"?)
 - "The versioning problem" as its single topic? (TBD)
-- explain: restore, kernel, rootfs, plugins-dep
+
+## Demos
+
+Stuff that needs separate showcasing:
+
+- MPB kernel menuconfig, dirclean, rebuild, publish
+- kernel tweaks quick deploy
+- update image tar
+- enter restore mode, do manual update
+- force host crash, reload and recover
+- hmi bootloader restore, markrom ??
+- license api
+- self-test mode
+- mod-memset
+- mod-noise-removal
 
 ## LICENSE
 
-CC0 1.0 Universal, see [LICENSE]
+CC0 1.0 Universal, see [LICENSE](LICENSE)
 
 LICENSE applies only to this `README.md` and the `pres.odp` text, artwork is copyright MOD Audio UG and used with permission.
